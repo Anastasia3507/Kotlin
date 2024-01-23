@@ -24,3 +24,4 @@ fun main(){
     val perimeterOfTriangle = beinAB + beinCB + hypotenuseOfTriangle
     println("Площадь прямоугольного треугольника равна $areaOfTriangle, периметр прямоугольного треугольника равен $perimeterOfTriangle.")
 }
+
