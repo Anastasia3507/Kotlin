@@ -28,24 +28,11 @@ fun main(){
     val daysPerMonth = 30
     val daysPerYear = 360
 
-    val dayFromBirth = calculateNumberOfDaySinceBirth(currentYear, yearOfBirth, monthOfBirth, currentMonth, dayOfBirth, currentDay, daysPerYear, daysPerMonth)
-    val secondFromBirth = dayFromBirth * secondPerDay
-    val yearsFromBirth = secondFromBirth / secondPerDay / daysPerYear
-    val monthFromBirth = secondFromBirth / secondPerDay / daysPerMonth
-    println("$yearsFromBirth years, $monthFromBirth months, $dayFromBirth days and $secondFromBirth seconds have passed since my birth.")
-}
-
-fun calculateNumberOfDaySinceBirth(
-    currentYear: Int,
-    yearOfBirth: Int,
-    monthOfBirth: Int,
-    currentMonth: Int,
-    dayOfBirth: Int,
-    currentDay: Int,
-    daysPerYear: Int,
-    daysPerMonth: Int): Int {
     var daysFromBirth = (currentYear - yearOfBirth) * daysPerYear
     daysFromBirth += (currentMonth - monthOfBirth) * daysPerMonth
     daysFromBirth += currentDay - dayOfBirth
-    return daysFromBirth
+    val secondFromBirth = daysFromBirth * secondPerDay
+    val yearsFromBirth = secondFromBirth / secondPerDay / daysPerYear
+    val monthFromBirth = secondFromBirth / secondPerDay / daysPerMonth
+    println("$yearsFromBirth years, $monthFromBirth months, $daysFromBirth days and $secondFromBirth seconds have passed since my birth.")
 }
