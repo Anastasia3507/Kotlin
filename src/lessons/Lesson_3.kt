@@ -3,7 +3,7 @@ package lessons
 fun main() {
     // задание 1
     val quantityOfGoods = readln().toInt()
-    val price = if(quantityOfGoods < 0){
+    val price = if(quantityOfGoods < 0){ // replace on when
         0
     } else if (quantityOfGoods <= 9){
         1000
