@@ -33,9 +33,18 @@ fun main() {
     шоколадом внутри. Во вторую кучку соберите все желтые конфеты с орехами. А в третью кучку коричневые с шоколадом и
     зеленые с шоколадом. Нужно реализовать только логику для сортировки конфет.
      */
-    val color = "yellow"
-    val filling = "nut"
-    println(sortingSweets(color, filling))
+
+    val sweets = listOf(
+        "red" to "chocolate",
+        "green" to "chocolate",
+        "yellow" to "nut",
+        "red" to "chocolate",
+        "brow" to "chocolate")
+
+    sweets.forEach() {
+        println("${sweets.indexOf(it.first to it.second)}. Эта конфета цвета - ${it.first}, и с начинкой - ${it.second}")
+        println(sortingSweets(it.first, it.second))
+    }
 }
 
 fun priceOneProduct(quantityOfGoods: Int) =
@@ -59,8 +68,8 @@ fun getLevelOfDanger(level: String): String {
 
 fun sortingSweets(color: String, filling: String) =
     when {
-        color == "red" && filling == "chocolate" -> "Положите эти конфеты в первую кучку"
-        color == "yellow" && filling == "nut" -> "Положите эти конфеты во вторую кучку"
-        (color == "brow" || color == "green") && filling == "chocolate" -> "Положите эти конфеты в третью кучку"
+        color == "red" && filling == "chocolate" -> "Положите эту конфету в первую кучку"
+        color == "yellow" && filling == "nut" -> "Положите эту конфету во вторую кучку"
+        (color == "brow" || color == "green") && filling == "chocolate" -> "Положите эту конфету в третью кучку"
         else -> "Это не M&Ms"
     }

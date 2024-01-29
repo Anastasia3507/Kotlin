@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="new lesson_3">
+      <change afterPath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +64,7 @@
     "Kotlin.Lesson_1Kt.executor": "Run",
     "Kotlin.Lesson_2Kt.executor": "Run",
     "Kotlin.Lesson_3Kt.executor": "Run",
+    "Kotlin.Lesson_4Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -93,9 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_4Kt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.Lesson_3Kt" />
+        <item itemvalue="Kotlin.Lesson_4Kt" />
         <item itemvalue="Kotlin.Lesson_2Kt" />
       </list>
     </recent_temporary>
