@@ -4,7 +4,7 @@ fun main(){
     // задание 1
     val numberOne = 13.4F
     val numberTwo = 42.0F
-    val sumOfTwoNumbers: Double = numberOne.toDouble() + numberTwo.toDouble()
+    val sumOfTwoNumbers: Double = (numberOne + numberTwo).toDouble()
     println("Сумма двух чисел равна $sumOfTwoNumbers")
 
     // задание 2

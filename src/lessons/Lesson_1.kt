@@ -13,7 +13,7 @@ fun main(){
     val myAge = 25
     val myAgeInTenYear = myAge + 10
     val daysInYear = 365.25
-    val daysPassed: Float = daysInYear.toFloat() * myAgeInTenYear.toFloat()
+    val daysPassed: Float = (daysInYear * myAgeInTenYear).toFloat()
     println("Мой возраст $myAge лет. Через 10 лет, мне будет $myAgeInTenYear лет, с момента моего рождения пройдет $daysPassed дней.")
 
     // задание 3
