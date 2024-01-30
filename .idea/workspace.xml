@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="new lesson_4, changed task 3 in lesson_3">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_01_2024_21_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_01_2024_21_00__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Lesson_4Kt">
+  <component name="RunManager" selected="Kotlin.Lesson_3Kt">
     <configuration name="Lesson_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons.Lesson_2Kt" />
       <module name="Kotlin" />
@@ -101,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Lesson_4Kt" />
         <item itemvalue="Kotlin.Lesson_3Kt" />
+        <item itemvalue="Kotlin.Lesson_4Kt" />
         <item itemvalue="Kotlin.Lesson_2Kt" />
       </list>
     </recent_temporary>
