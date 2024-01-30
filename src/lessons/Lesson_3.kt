@@ -39,14 +39,14 @@ fun main() {
         Sweet("brow" to "chocolate"))
 
     sweets.forEachIndexed { index, sweet ->
-        println("$index. Эта конфета цвета - ${sweet.color}, и с начинкой - ${sweet.filling}")
+        println("$index. Эта конфета цвета - ${sweet.sweet.first}, и с начинкой - ${sweet.sweet.second}")
         println(sortingSweets(sweet))
     }
 }
 
 fun priceOneProduct(quantityOfGoods: Int) =
     when (quantityOfGoods) {
-        in Int.MIN_VALUE..-1 -> 0
+        in Int.MIN_VALUE..-1 -> 0  // кинуть ошибку
         in 0..9 -> 1000
         in 10..19 -> 800
         else -> 600
@@ -66,13 +66,10 @@ fun getLevelOfDanger(level: String): String {
 
 fun sortingSweets(sweet: Sweet) =
     when {
-        sweet.color == "red" && sweet.filling == "chocolate" -> "Положите эту конфету в первую кучку"
-        sweet.color == "yellow" && sweet.filling == "nut" -> "Положите эту конфету во вторую кучку"
-        (sweet.color == "brow" || sweet.color == "green") && sweet.filling == "chocolate" -> "Положите эту конфету в третью кучку"
+        sweet.sweet.first == "red" && sweet.sweet.second == "chocolate" -> "Положите эту конфету в первую кучку"
+        sweet.sweet.first == "yellow" && sweet.sweet.second == "nut" -> "Положите эту конфету во вторую кучку"
+        (sweet.sweet.first == "brow" || sweet.sweet.first == "green") && sweet.sweet.second == "chocolate" -> "Положите эту конфету в третью кучку"
         else -> "Это не M&Ms"
     }
 
-class Sweet(sweet: Pair<String, String>) {
-    val color = sweet.first
-    val filling = sweet.second
-}
+class Sweet(val sweet: Pair<String, String>)
