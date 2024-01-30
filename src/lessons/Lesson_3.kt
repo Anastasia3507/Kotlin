@@ -10,12 +10,9 @@ fun main() {
      */
 
     val quantityOfGoods = readln().toInt()
-    if(quantityOfGoods >= 0) {
-        val price = priceOneProduct(quantityOfGoods)
-        println(price * quantityOfGoods)
-    } else {
-        println("Вы ввели отрицательное число")
-    }
+    val price = priceOneProduct(quantityOfGoods)
+    println(price * quantityOfGoods)
+
 
     /* задание 2
     Создайте три уровня готовности к чрезвычайным ситуациям: A, B и C. Каждая степень должна предусматривать ряд
@@ -35,20 +32,21 @@ fun main() {
      */
 
     val sweets = listOf(
-        "red" to "chocolate",
-        "green" to "chocolate",
-        "yellow" to "nut",
-        "red" to "chocolate",
-        "brow" to "chocolate")
+        Sweet("red" to "chocolate"),
+        Sweet("green" to "chocolate"),
+        Sweet("yellow" to "nut"),
+        Sweet("red" to "chocolate"),
+        Sweet("brow" to "chocolate"))
 
-    sweets.forEach() {
-        println("${sweets.indexOf(it.first to it.second)}. Эта конфета цвета - ${it.first}, и с начинкой - ${it.second}")
-        println(sortingSweets(it.first, it.second))
+    sweets.forEachIndexed { index, sweet ->
+        println("$index. Эта конфета цвета - ${sweet.color}, и с начинкой - ${sweet.filling}")
+        println(sortingSweets(sweet))
     }
 }
 
 fun priceOneProduct(quantityOfGoods: Int) =
     when (quantityOfGoods) {
+        in Int.MIN_VALUE..-1 -> 0
         in 0..9 -> 1000
         in 10..19 -> 800
         else -> 600
@@ -59,17 +57,22 @@ fun getLevelOfDanger(level: String): String {
     val b = "Закрыть входные двери и окна"
     val c = "Соблюдать спокойствие"
     return when (level) {
-        "A" -> a + b + c
-        "B" -> b + c
+        "A" -> a + "\n" + b + "\n" + c
+        "B" -> b + "\n" + c
         "C" -> c
         else -> "error"
     }
 }
 
-fun sortingSweets(color: String, filling: String) =
+fun sortingSweets(sweet: Sweet) =
     when {
-        color == "red" && filling == "chocolate" -> "Положите эту конфету в первую кучку"
-        color == "yellow" && filling == "nut" -> "Положите эту конфету во вторую кучку"
-        (color == "brow" || color == "green") && filling == "chocolate" -> "Положите эту конфету в третью кучку"
+        sweet.color == "red" && sweet.filling == "chocolate" -> "Положите эту конфету в первую кучку"
+        sweet.color == "yellow" && sweet.filling == "nut" -> "Положите эту конфету во вторую кучку"
+        (sweet.color == "brow" || sweet.color == "green") && sweet.filling == "chocolate" -> "Положите эту конфету в третью кучку"
         else -> "Это не M&Ms"
     }
+
+class Sweet(sweet: Pair<String, String>) {
+    val color = sweet.first
+    val filling = sweet.second
+}
