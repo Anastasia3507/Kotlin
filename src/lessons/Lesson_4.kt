@@ -54,5 +54,20 @@ fun main() {
     помощи цикла, через сколько дней она заберется на столб? Подумайте над тем, какой цикл использовать в этой ситуации.
     */
 
+    var lengthOfPost = 0
+    var counterDay = 0
+    var isDay = true
+
+    while (lengthOfPost < 10) {
+        if (isDay) {
+            lengthOfPost += 2
+            counterDay += 1
+            isDay = false
+        } else {
+            lengthOfPost -= 1
+            isDay = true
+        }
+    }
+    println("Черепашке понадобилось $counterDay дней, чтобы залезть на столб.")
 }
 
