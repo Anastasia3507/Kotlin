@@ -41,12 +41,19 @@ fun main() {
     "Что бы выпало число 5 понадобилось <...> итераций".
     */
 
+    var flag = false
+
     for (i in 1..10) {
         val numRandom = (1..10).random()
         if (numRandom == 5) {
             println("Что бы выпало число 5 понадобилось $i итераций")
+            flag = true
             break
         }
+    }
+
+    if (!flag) {   // подумать как обойтись
+        println("Число 5 не выпало")
     }
 
     /* Задание 4
