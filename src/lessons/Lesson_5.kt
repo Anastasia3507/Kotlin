@@ -21,7 +21,7 @@ fun main() {
         )
 
     result.forEach() {
-        for (i in it.value) {
+        for (i in it.value) { forEach ? 
             println("- Игра с ${it.key} - $i")
         }
     }
@@ -70,7 +70,7 @@ fun main() {
     3.7 Отфильтруйте массив из задания 3.4 при помощи двух последний функций.
      */
 }
-
+fun sumNumbers (numbers: List<Int>) = numbers.sum()
 fun sumNumbers (numbers: List<Int>): Int {   // задание 2
     var sum = 0
     numbers.forEach {
