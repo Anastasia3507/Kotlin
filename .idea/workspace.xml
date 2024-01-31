@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="change Lesson_3">
-      <change afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lesson__5",
+    "git-widget-placeholder": "lessons",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
     "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
@@ -80,7 +80,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Lesson_5Kt">
+  <component name="RunManager">
     <configuration name="Lesson_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons.Lesson_2Kt" />
       <module name="Kotlin" />

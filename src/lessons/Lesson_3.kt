@@ -46,7 +46,7 @@ fun main() {
 
 fun priceOneProduct(quantityOfGoods: Int) =
     when (quantityOfGoods) {
-        in Int.MIN_VALUE..-1 -> 0  // кинуть ошибку
+        in Int.MIN_VALUE..-1 -> throw Exception("Вы ввели отрицательное число")
         in 0..9 -> 1000
         in 10..19 -> 800
         else -> 600
