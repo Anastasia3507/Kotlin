@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="new lesson_5, changed lessons 3-4">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024_9_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024_9_39__Changes_.xml" afterDir="false" />
+    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="changed lesson 5, 6">
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab2/Book.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab2/BookTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Employee.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Orange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Orange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +83,14 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Lesson_6Kt (1)">
-    <configuration name="Lesson_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_2Kt" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shmel\IdeaProjects\Kotlin_practice\src\lab_works\" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Lab1Kt">
+    <configuration name="Lab1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_works.Lab1Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lab1Kt" />
         <item itemvalue="Kotlin.Lesson_6Kt (1)" />
         <item itemvalue="Kotlin.Lesson_5Kt" />
         <item itemvalue="Kotlin.Lesson_6Kt" />
         <item itemvalue="Kotlin.Lesson_3Kt" />
-        <item itemvalue="Kotlin.Lesson_2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706603883228</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed lesson 5, 6">
+      <option name="closed" value="true" />
+      <created>1707160395194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707160395195</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +249,7 @@
     <MESSAGE value="new lesson_3" />
     <MESSAGE value="new lesson_4, changed task 3 in lesson_3" />
     <MESSAGE value="change Lesson_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Lesson_3" />
+    <MESSAGE value="changed lesson 5, 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed lesson 5, 6" />
   </component>
 </project>
