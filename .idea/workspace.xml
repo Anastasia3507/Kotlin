@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="change Lesson_3">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml" afterDir="false" />
+    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="new lesson_5, changed lessons 3-4">
+      <change afterPath="$PROJECT_DIR$/src/lessons/Employee.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/Lesson_6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/Orange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_20_06__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_20_06__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -67,10 +69,11 @@
     "Kotlin.Lesson_3Kt.executor": "Run",
     "Kotlin.Lesson_4Kt.executor": "Run",
     "Kotlin.Lesson_5Kt.executor": "Run",
+    "Kotlin.Lesson_6Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lessons",
+    "git-widget-placeholder": "new__lesson__6",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
     "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
@@ -80,7 +83,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Lesson_6Kt">
     <configuration name="Lesson_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons.Lesson_2Kt" />
       <module name="Kotlin" />
@@ -109,12 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson_6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_6Kt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Lesson_5Kt" />
-        <item itemvalue="Kotlin.Lesson_4Kt" />
-        <item itemvalue="Kotlin.Lesson_2Kt" />
+        <item itemvalue="Kotlin.Lesson_6Kt" />
         <item itemvalue="Kotlin.Lesson_3Kt" />
+        <item itemvalue="Kotlin.Lesson_2Kt" />
+        <item itemvalue="Kotlin.Lesson_4Kt" />
+        <item itemvalue="Kotlin.Lesson_5Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +209,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
