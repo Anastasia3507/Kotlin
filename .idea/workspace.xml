@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="new lesson_5, changed lessons 3-4">
-      <change afterPath="$PROJECT_DIR$/src/lessons/Employee.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/Lesson_6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/Orange.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_20_06__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_20_06__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024_9_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_02_2024_9_39__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Employee.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Orange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Orange.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="dbdde491-ed19-43ae-9430-bc8a7117193f" />
+        <option name="accountId" value="dd2ba900-983c-4216-83d1-85ce22ea91f4" />
         <option name="url" value="https://github.com/AnastasiyaShmeleva/Kotlin_practice.git" />
       </UrlAndAccount>
     </option>
@@ -69,11 +70,12 @@
     "Kotlin.Lesson_3Kt.executor": "Run",
     "Kotlin.Lesson_4Kt.executor": "Run",
     "Kotlin.Lesson_5Kt.executor": "Run",
+    "Kotlin.Lesson_6Kt (1).executor": "Run",
     "Kotlin.Lesson_6Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "new__lesson__6",
+    "git-widget-placeholder": "lessons",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
     "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
@@ -83,7 +85,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.Lesson_6Kt">
+  <component name="RunManager" selected="Kotlin.Lesson_6Kt (1)">
     <configuration name="Lesson_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons.Lesson_2Kt" />
       <module name="Kotlin" />
@@ -98,15 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_4Kt" />
+    <configuration name="Lesson_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_5Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_5Kt" />
+    <configuration name="Lesson_6Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.lesson_6.Lesson_6Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lesson_6Kt (1)" />
+        <item itemvalue="Kotlin.Lesson_5Kt" />
         <item itemvalue="Kotlin.Lesson_6Kt" />
         <item itemvalue="Kotlin.Lesson_3Kt" />
         <item itemvalue="Kotlin.Lesson_2Kt" />
-        <item itemvalue="Kotlin.Lesson_4Kt" />
-        <item itemvalue="Kotlin.Lesson_5Kt" />
       </list>
     </recent_temporary>
   </component>

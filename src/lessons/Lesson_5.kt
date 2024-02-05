@@ -54,7 +54,7 @@ fun main() {
     /*
     3.5 Создайте функцию для фильтрации переданного в неё массива. Функция должна возвращать новый массив без четных
     чисел. Для определения фильтруемых значений используйте ранее созданную функцию из задания 3.1.
-    3.6 Создайте функцию для фильтрации переда нного в неё массива. Функция должна возвращать новый массив без чисел
+    3.6 Создайте функцию для фильтрации переданного в неё массива. Функция должна возвращать новый массив без чисел
     кратных трем. Для определения фильтруемых значений используйте ранее созданную функцию из задания 3.2.
     3.7 Отфильтруйте массив из задания 3.4 при помощи двух последний функций.
     */
@@ -77,22 +77,6 @@ fun getArrayOfNumbers (x: Int, y: Int): List<Int> {   // 3.3 функция во
     return List(y - x + 1) { i -> i + 1 }
 }
 
-fun filteringOfNumbersDivisibleByTwo (numbers: List<Int>): MutableList<Int> {  // 3.5  функция создает массив с четными числами
-    val filteredList = mutableListOf<Int>()
-    numbers.forEach { num ->
-        if (parityOfNumber(num)) {
-            filteredList.add(num)
-        }
-    }
-    return filteredList
-}
+fun filteringOfNumbersDivisibleByTwo (numbers: List<Int>) = numbers.filter { num -> parityOfNumber(num) }
 
-fun filteringOfNumbersDivisibleByTree (numbers: List<Int>): MutableList<Int> {  // 3.6  функция создает массив с числами делящимися на три
-    val filteredList = mutableListOf<Int>()
-    numbers.forEach { num ->
-        if (multipleOfNumberByThree(num)) {
-            filteredList.add(num)
-        }
-    }
-    return filteredList
-}
+fun filteringOfNumbersDivisibleByTree (numbers: List<Int>)= numbers.filter { num -> multipleOfNumberByThree(num) }
