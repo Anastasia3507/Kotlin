@@ -1,0 +1,102 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"25986190-9117-4ce9-a0cf-e2c99216cd72\" name=\"Changes\" comment=\"change Lesson_3\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/lessons/Lesson_4.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/lessons/Lesson_4.kt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/lessons/Lesson_5.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/lessons/Lesson_5.kt\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Kotlin File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;AnastasiyaShmeleva&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"dbdde491-ed19-43ae-9430-bc8a7117193f\" />\r\n        <option name=\"url\" value=\"https://github.com/AnastasiyaShmeleva/Kotlin_practice.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2b5rTbgl2YNcASleJQHNBSLktOq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"Kotlin.Lab1Kt.executor\": \"Run\",\r\n    \"Kotlin.Lesson_1Kt.executor\": \"Run\",\r\n    \"Kotlin.Lesson_2Kt.executor\": \"Run\",\r\n    \"Kotlin.Lesson_3Kt.executor\": \"Run\",\r\n    \"Kotlin.Lesson_4Kt.executor\": \"Run\",\r\n    \"Kotlin.Lesson_5Kt.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"lessons\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/shmel/IdeaProjects/Kotlin\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Lesson_2Kt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lessons.Lesson_2Kt\" />\r\n      <module name=\"Kotlin\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lesson_3Kt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lessons.Lesson_3Kt\" />\r\n      <module name=\"Kotlin\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lesson_4Kt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lessons.Lesson_4Kt\" />\r\n      <module name=\"Kotlin\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Lesson_5Kt\" type=\"JetRunConfigurationType\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lessons.Lesson_5Kt\" />\r\n      <module name=\"Kotlin\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Kotlin.Lesson_5Kt\" />\r\n        <item itemvalue=\"Kotlin.Lesson_4Kt\" />\r\n        <item itemvalue=\"Kotlin.Lesson_2Kt\" />\r\n        <item itemvalue=\"Kotlin.Lesson_3Kt\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"25986190-9117-4ce9-a0cf-e2c99216cd72\" name=\"Changes\" comment=\"\" />\r\n      <created>1705515790675</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1705515790675</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"add new files\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705516329504</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705516329504</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"new lesson_1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706002948975</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706002948975</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"new lesson_2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706012793115</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706012793115</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"change lesson_2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706039125045</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706039125045</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"new lesson_3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706124581466</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706124581466</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"new lesson_4, changed task 3 in lesson_3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706557391079</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706557391079</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"change Lesson_3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706603883228</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706603883228</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"add new files\" />\r\n    <MESSAGE value=\"new lesson_1\" />\r\n    <MESSAGE value=\"new lesson_2\" />\r\n    <MESSAGE value=\"change lesson_2\" />\r\n    <MESSAGE value=\"new lesson_3\" />\r\n    <MESSAGE value=\"new lesson_4, changed task 3 in lesson_3\" />\r\n    <MESSAGE value=\"change Lesson_3\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"change Lesson_3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="change Lesson_3">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_01_2024_10_12__Changes_.xml" afterDir="false" />
++    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="changed Lesson_3.kt, Lesson_4.kt, new tasks in Lesson_5.kt">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -58,29 +55,29 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "Kotlin.Lab1Kt.executor": "Run",
+-    "Kotlin.Lesson_1Kt.executor": "Run",
+-    "Kotlin.Lesson_2Kt.executor": "Run",
+-    "Kotlin.Lesson_3Kt.executor": "Run",
+-    "Kotlin.Lesson_4Kt.executor": "Run",
+-    "Kotlin.Lesson_5Kt.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "lessons",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
+-    "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;Kotlin.Lab1Kt.executor&quot;: &quot;Run&quot;,
++    &quot;Kotlin.Lesson_1Kt.executor&quot;: &quot;Run&quot;,
++    &quot;Kotlin.Lesson_2Kt.executor&quot;: &quot;Run&quot;,
++    &quot;Kotlin.Lesson_3Kt.executor&quot;: &quot;Run&quot;,
++    &quot;Kotlin.Lesson_4Kt.executor&quot;: &quot;Run&quot;,
++    &quot;Kotlin.Lesson_5Kt.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;lessons&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/shmel/IdeaProjects/Kotlin&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+   }
+-}]]></component>
+-  <component name="RunManager">
++}</component>
++  <component name="RunManager" selected="Kotlin.Lesson_2Kt">
+     <configuration name="Lesson_2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="lessons.Lesson_2Kt" />
+       <module name="Kotlin" />
+@@ -190,7 +187,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1706603883228</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="changed Lesson_3.kt, Lesson_4.kt, new tasks in Lesson_5.kt">
++      <option name="closed" value="true" />
++      <created>1706728424858</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1706728424859</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -213,6 +218,7 @@
+     <MESSAGE value="new lesson_3" />
+     <MESSAGE value="new lesson_4, changed task 3 in lesson_3" />
+     <MESSAGE value="change Lesson_3" />
+-    <option name="LAST_COMMIT_MESSAGE" value="change Lesson_3" />
++    <MESSAGE value="changed Lesson_3.kt, Lesson_4.kt, new tasks in Lesson_5.kt" />
++    <option name="LAST_COMMIT_MESSAGE" value="changed Lesson_3.kt, Lesson_4.kt, new tasks in Lesson_5.kt" />
+   </component>
+ </project>
+\ No newline at end of file
