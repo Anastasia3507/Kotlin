@@ -39,20 +39,33 @@ fun main() {
         println("${employee.name} ${employee.surname}’s salary is $${employee.salary}")
     }
 
+    хочу вот так )
+    employees.forEach { employee ->
+        println(employee)  // (переопредели метод toString())
+    }
     /* 2.5 Создайте еще один массив на основе employees, который включает только тех работников, чья зарплата чётная.
     Выведите информацию по каждому сотруднику с четной зарплатой, как в пункте 2.4
      */
 
     println("\nСотрудники с четной зарплатой:")
     sortListOfEmployees(employees).forEach { employee ->
-        println("${employee.name} ${employee.surname}’s salary is $${employee.salary}")
+        println("${employee.name} ${employee.surname}’s salary is $${employee.salary}") дублирование кода !!!
     }
 
+
+    
+}
+
+// расскажи как это работает)
+fun getListOfEmployees (name: MutableList<String>, surname: MutableList<String>)= mutableListOf<Employee>().apply {
+     repeat (10) {
+         this.add(Employee(name = name.random(), surname = surname.random(), salary = Random.nextInt(1000, 2000)))
+     }
 }
 
 fun getListOfEmployees (name: MutableList<String>, surname: MutableList<String>): MutableList<Employee> {
      val employees = mutableListOf<Employee>()
-     for (i in 1..10) { repeat(10)
+     for (i in 1..10) { попробуй так repeat() (для разнообразия)
          val salaryRandom = Random.nextInt(1000, 2000)
          employees.add(Employee(name = name.random(), surname = surname.random(), salary = salaryRandom))
      }
