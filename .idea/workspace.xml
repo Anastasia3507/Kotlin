@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="changed lesson 5, 6">
-      <change afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Circle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Lesson_7.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Rectangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Shape.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_05_02_2024_18_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_05_02_2024_18_42__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Ellipse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_11_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_11_53__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Employee.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Orange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Orange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab2/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab2/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab2/BookTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab2/BookTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Lesson_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Lesson_7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Rectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Rectangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Shape.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Shape.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +66,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Kotlin.BookTestKt.executor": "Run",
     "Kotlin.Lab1Kt.executor": "Run",
     "Kotlin.Lesson_1Kt.executor": "Run",
     "Kotlin.Lesson_2Kt.executor": "Run",
@@ -86,7 +80,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "new__lesson__6",
+    "git-widget-placeholder": "lessons",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
     "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
@@ -102,15 +96,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.Lesson_7Kt">
-    <configuration name="Lab1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_works.Lab1Kt" />
+    <configuration name="BookTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_works.lab2.BookTestKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_5Kt" />
+    <configuration name="Lab1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_works.Lab1Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.Lesson_7Kt" />
+        <item itemvalue="Kotlin.BookTestKt" />
         <item itemvalue="Kotlin.Lesson_6Kt (1)" />
         <item itemvalue="Kotlin.Lesson_5_1Kt" />
         <item itemvalue="Kotlin.Lab1Kt" />
-        <item itemvalue="Kotlin.Lesson_5Kt" />
       </list>
     </recent_temporary>
   </component>
