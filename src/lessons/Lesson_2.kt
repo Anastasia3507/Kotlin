@@ -1,6 +1,6 @@
 package lessons
 
-fun main(){
+fun main() {
     // задание 1
     val numberOne = 13.4F
     val numberTwo = 42.0F
