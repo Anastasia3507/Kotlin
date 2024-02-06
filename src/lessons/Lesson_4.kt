@@ -28,7 +28,7 @@ fun main() {
     2.2 Выведите на консоль все четные числа из массива
      */
 
-    val randomNumbers = Array(10){ Random.nextInt(0, 100)}
+    val randomNumbers = Array(10) { Random.nextInt(0, 100) }
     randomNumbers.forEach {
         if (it % 2 == 0) {
             println(it)
@@ -46,7 +46,7 @@ fun main() {
         if (numRandom == 5) {
             println("Что бы выпало число 5 понадобилось $i итераций")
             break
-        } else if (i == 10){
+        } else if (i == 10) {
             println("Число 5 не выпало")
         }
     }

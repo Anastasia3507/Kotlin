@@ -20,10 +20,10 @@ fun main() {
         "Салават Юлаев" to arrayOf("3:6", "5:5", "N/A"),
         "Авангард" to arrayOf("2:1"),
         "АкБарс" to arrayOf("3:3", "1:2")
-        )
+    )
 
     result.forEach { match ->
-        match.value.forEach{ score ->
+        match.value.forEach { score ->
             println("- Игра с ${match.key} - $score")
         }
     }
@@ -63,20 +63,14 @@ fun main() {
     println(filteringOfNumbersDivisibleByTree(numbers))
 }
 
-fun getSumNumbers (numbers: List<Int>) = numbers.sum()  // 2 функция считает сумму переданных в нее значений
+fun getSumNumbers(numbers: List<Int>) = numbers.sum()
 
-fun parityOfNumber (number: Int): Boolean {   // 3.1 функция определяет является ли число четным
-    return number % 2 == 0
-}
+fun parityOfNumber(number: Int) = number % 2 == 0
 
-fun multipleOfNumberByThree (number: Int): Boolean {   // 3.2 функция определяет делиться ли число на 3
-    return number % 3 == 0
-}
+fun multipleOfNumberByThree(number: Int) = number % 3 == 0
 
-fun getArrayOfNumbers (x: Int, y: Int): List<Int> {   // 3.3 функция возвращает массив чисел в заданном диапазоне
-    return List(y - x + 1) { i -> i + 1 }
-}
+fun getArrayOfNumbers(x: Int, y: Int) = List(y - x + 1) { i -> i + 1 }
 
-fun filteringOfNumbersDivisibleByTwo (numbers: List<Int>) = numbers.filter { num -> parityOfNumber(num) }
+fun filteringOfNumbersDivisibleByTwo(numbers: List<Int>) = numbers.filter { num -> !parityOfNumber(num) }
 
-fun filteringOfNumbersDivisibleByTree (numbers: List<Int>)= numbers.filter { num -> multipleOfNumberByThree(num) }
+fun filteringOfNumbersDivisibleByTree(numbers: List<Int>) = numbers.filter { num -> !multipleOfNumberByThree(num) }

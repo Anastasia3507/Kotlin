@@ -8,6 +8,6 @@ class Orange(
     val taste: String? = "sweet",
     val radius: Double,
 ) {
-    private fun calculateOrangeVolume () = 4 / 3 * PI * radius.pow(3)
+    private fun calculateOrangeVolume() = 4 / 3 * PI * radius.pow(3)
     val orangeVolume get() = calculateOrangeVolume()
 }

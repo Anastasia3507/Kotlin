@@ -36,7 +36,8 @@ fun main() {
         Sweet("green" to "chocolate"),
         Sweet("yellow" to "nut"),
         Sweet("red" to "chocolate"),
-        Sweet("brow" to "chocolate"))
+        Sweet("brow" to "chocolate")
+    )
 
     sweets.forEachIndexed { index, sweet ->
         println("$index. Эта конфета цвета - ${sweet.sweet.first}, и с начинкой - ${sweet.sweet.second}")

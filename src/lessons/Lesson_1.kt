@@ -3,7 +3,7 @@ package lessons
 import kotlin.math.pow
 import kotlin.math.sqrt
 
-fun main(){
+fun main() {
     // задание 1
     val firstString = "I can"
     val secondString = "code"
