@@ -58,7 +58,7 @@ fun main() {
 
 // расскажи как это работает)
 fun getListOfEmployees (name: MutableList<String>, surname: MutableList<String>)= mutableListOf<Employee>().apply {
-     repeat (10) {
+     repeat (10) { _ ->
          this.add(Employee(name = name.random(), surname = surname.random(), salary = Random.nextInt(1000, 2000)))
      }
 }
