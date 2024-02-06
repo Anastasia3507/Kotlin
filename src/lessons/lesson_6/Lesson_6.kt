@@ -52,7 +52,7 @@ fun main() {
 
 fun getListOfEmployees (name: MutableList<String>, surname: MutableList<String>): MutableList<Employee> {
      val employees = mutableListOf<Employee>()
-     for (i in 1..10) {
+     for (i in 1..10) { repeat(10)
          val salaryRandom = Random.nextInt(1000, 2000)
          employees.add(Employee(name = name.random(), surname = surname.random(), salary = salaryRandom))
      }
