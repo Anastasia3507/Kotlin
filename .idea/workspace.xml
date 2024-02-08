@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="changed lesson 5, 6">
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Ellipse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_11_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_11_53__Changes_.xml" afterDir="false" />
+    <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="new lesson_7, changed lesson_6">
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab2/lab2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Furniture.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Priceable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Table.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/lab3_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_20_33__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_20_33__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab_works/lab2/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab2/Book.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab2/BookTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab2/BookTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab2/BookTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3/Furniture.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Lesson_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Lesson_7.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Rectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Rectangle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Shape.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Shape.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
@@ -68,6 +75,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Kotlin.BookTestKt.executor": "Run",
     "Kotlin.Lab1Kt.executor": "Run",
+    "Kotlin.Lab3_4Kt.executor": "Run",
     "Kotlin.Lesson_1Kt.executor": "Run",
     "Kotlin.Lesson_2Kt.executor": "Run",
     "Kotlin.Lesson_3Kt.executor": "Run",
@@ -80,7 +88,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lessons",
+    "git-widget-placeholder": "new__lab",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
     "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
@@ -94,17 +102,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shmel\IdeaProjects\Kotlin_practice\src\lab_works\" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="lab_works.lab3" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Lesson_7Kt">
-    <configuration name="BookTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_works.lab2.BookTestKt" />
+  <component name="RunManager" selected="Kotlin.Lab3_4Kt">
+    <configuration name="Lab2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_works.lab2.Lab2Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_works.Lab1Kt" />
+    <configuration name="Lab3_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_works.lab3_4.Lab3_4Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lab3_4Kt" />
         <item itemvalue="Kotlin.Lesson_7Kt" />
-        <item itemvalue="Kotlin.BookTestKt" />
+        <item itemvalue="Kotlin.Lab2Kt" />
         <item itemvalue="Kotlin.Lesson_6Kt (1)" />
         <item itemvalue="Kotlin.Lesson_5_1Kt" />
-        <item itemvalue="Kotlin.Lab1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -229,19 +240,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
