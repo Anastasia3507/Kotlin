@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="new lesson_7, changed lesson_6">
-      <change afterPath="$PROJECT_DIR$/src/lab_works/lab2/lab2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Furniture.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Priceable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Table.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/lab3_4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_20_33__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_06_02_2024_20_33__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_02_2024_9_16__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_02_2024_9_16__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab2/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab2/Book.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab2/BookTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3/Furniture.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Lesson_7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Lesson_7.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_7/Shape.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_7/Shape.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/Furniture.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Furniture.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/Priceable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Priceable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/Table.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Table.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/lab3_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/lab3_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_6/Lesson_6.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +83,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "new__lab",
+    "git-widget-placeholder": "lessons",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
     "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
