@@ -8,7 +8,7 @@ fun main() {
     println("Сумма двух чисел равна $sumOfTwoNumbers")
 
     // задание 2
-    val numberThree  = 17
+    val numberThree = 17
     val numberFour = 9
     val result = numberThree / numberFour
     val remainder = numberThree % numberFour

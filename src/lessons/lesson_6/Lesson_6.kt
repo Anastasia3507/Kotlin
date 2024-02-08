@@ -51,20 +51,11 @@ fun main() {
 
 }
 
-// расскажи как это работает)
+
 fun getListOfEmployees(name: MutableList<String>, surname: MutableList<String>) = mutableListOf<Employee>().apply {
     repeat(10) { _ ->
         this.add(Employee(name = name.random(), surname = surname.random(), salary = Random.nextInt(1000, 2000)))
     }
 }
-
-//fun getListOfEmployees (name: MutableList<String>, surname: MutableList<String>): MutableList<Employee> {
-//     val employees = mutableListOf<Employee>()
-//     for (i in 1..10) {
-//         val salaryRandom = Random.nextInt(1000, 2000)
-//         employees.add(Employee(name = name.random(), surname = surname.random(), salary = salaryRandom))
-//     }
-//     return employees
-//}
 
 fun sortListOfEmployees(listOfEmployees: MutableList<Employee>) = listOfEmployees.filter { i -> i.salary % 2 == 0 }
