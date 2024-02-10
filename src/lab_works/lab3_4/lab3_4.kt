@@ -10,19 +10,22 @@ fun main() {
     val chair = Chair("plastic", true)
 
     println(table.infoFurniture())
-    println(table.getPrice())
+    println(priceFurniture(table))
 
     println(chair.infoFurniture())
-    println(chair.getPrice())
+    println(priceFurniture(chair))
 
     val chair2 = Chair("wood", false)
 
     println(chair2.infoFurniture())
-    println(chair2.getPrice())
+    println(priceFurniture(chair2))
 
+    val chair3 = Chair("plastic", false)
+
+    println(chair3.infoFurniture())
+    println(priceFurniture(chair3))
 }
-//Создай метод, который принимает аргументом твой интерфейс* и в теле метода вызови в лог цену книги.
-//
-//
-//*твой интерфейс не должен принимать цену
-//У тебя зада заключить договор, а именно каждая книга может вернуть свою стоймость. Интерфейс не должен принимать цену, он должен показать её.
+
+fun priceFurniture(price: Priceable) {
+    println("Product price = ${price.getPrice()} cucumbers")
+}
