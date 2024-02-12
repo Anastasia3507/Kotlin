@@ -20,10 +20,15 @@ fun main() {
     println(chair2.infoFurniture())
     println(priceFurniture(chair2))
 
-    val chair3 = Chair("plastic", false)
+    val chair3 = Chair("wood", true)
 
     println(chair3.infoFurniture())
     println(priceFurniture(chair3))
+
+    // сравнение объектов по свойству material
+    println(chair == chair2) // false
+    println(chair2 == chair3) // true
+
 }
 
 fun priceFurniture(price: Priceable) {
