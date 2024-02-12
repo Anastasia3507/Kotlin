@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="fix lab3_4">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_08_02_2024_21_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_08_02_2024_21_00__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons/NegativeNumException.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_02_2024_17_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_02_2024_17_10__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/lab3_4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/lab3_4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/Lesson_3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "new__lab",
+    "git-widget-placeholder": "lessons",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shmel/IdeaProjects/Kotlin",
     "onboarding.tips.debug.path": "C:/Users/shmel/IdeaProjects/Kotlin/src/Main.kt",
@@ -96,7 +96,7 @@
       <recent name="lab_works.lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Lab3_4Kt">
+  <component name="RunManager" selected="Kotlin.Lesson_3Kt">
     <configuration name="Lab2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_works.lab2.Lab2Kt" />
       <module name="Kotlin" />
@@ -111,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_5_1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_5_1Kt" />
+    <configuration name="Lesson_3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons.Lesson_3Kt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lesson_3Kt" />
         <item itemvalue="Kotlin.Lab3_4Kt" />
         <item itemvalue="Kotlin.Lesson_7Kt" />
         <item itemvalue="Kotlin.Lab2Kt" />
         <item itemvalue="Kotlin.Lesson_6Kt (1)" />
-        <item itemvalue="Kotlin.Lesson_5_1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -256,5 +256,15 @@
     <MESSAGE value="changed lesson 5, 6" />
     <MESSAGE value="fix lab3_4" />
     <option name="LAST_COMMIT_MESSAGE" value="fix lab3_4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.Exception" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -10,7 +10,13 @@ fun main() {
      */
 
     val quantityOfGoods = readln().toInt()
-    val price = priceOneProduct(quantityOfGoods)
+
+    val price = try {
+        priceOneProduct(quantityOfGoods)
+    } catch (e: NegativeNumException) {
+        println(e.textException)
+        0
+    }
     println(price * quantityOfGoods)
 
 
@@ -47,7 +53,7 @@ fun main() {
 
 fun priceOneProduct(quantityOfGoods: Int) =
     when (quantityOfGoods) {
-        in Int.MIN_VALUE..-1 -> throw Exception("Вы ввели отрицательное число")
+        in Int.MIN_VALUE..-1 -> throw NegativeNumException()
         in 0..9 -> 1000
         in 10..19 -> 800
         else -> 600
