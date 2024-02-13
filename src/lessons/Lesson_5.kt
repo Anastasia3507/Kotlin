@@ -59,8 +59,9 @@ fun main() {
     3.7 Отфильтруйте массив из задания 3.4 при помощи двух последний функций.
     */
 
-    println(filteringOfNumbersDivisibleByTwo(numbers))
-    println(filteringOfNumbersDivisibleByTree(numbers))
+    numbers.filteringOfNumbersDivisibleByTwo()
+    numbers.filteringOfNumbersDivisibleByTree()
+    //numbers.print()
 }
 
 fun getSumNumbers(numbers: List<Int>) = numbers.sum()
@@ -71,6 +72,21 @@ fun multipleOfNumberByThree(number: Int) = number % 3 == 0
 
 fun getArrayOfNumbers(x: Int, y: Int) = List(y - x + 1) { i -> i + 1 }
 
-fun filteringOfNumbersDivisibleByTwo(numbers: List<Int>) = numbers.filter { num -> !parityOfNumber(num) }
+//fun filteringOfNumbersDivisibleByTwo(numbers: List<Int>) = numbers.filter { num -> !parityOfNumber(num) }
 
-fun filteringOfNumbersDivisibleByTree(numbers: List<Int>) = numbers.filter { num -> !multipleOfNumberByThree(num) }
+//fun filteringOfNumbersDivisibleByTree(numbers: List<Int>) = numbers.filter { num -> !multipleOfNumberByThree(num) }
+
+
+fun List<Int>.filteringOfNumbersDivisibleByTwo() {
+    this.filter { num -> !parityOfNumber(num) }
+}
+
+fun List<Int>.filteringOfNumbersDivisibleByTree() {
+    this.filter { num -> !multipleOfNumberByThree(num) }
+}
+
+fun List<Int>.print() {
+    for (i in this) {  // перепишу
+        println(i)
+    }
+}
