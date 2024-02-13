@@ -26,9 +26,8 @@ fun main() {
     println(priceFurniture(chair3))
 
     // сравнение объектов по свойству material
-    println(chair == chair2) // false
     println(chair2 == chair3) // true
-
+    println(chair2.hashCode() == chair3.hashCode()) // true
 }
 
 fun priceFurniture(price: Priceable) {
