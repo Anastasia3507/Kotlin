@@ -59,7 +59,7 @@ fun main() {
     3.7 Отфильтруйте массив из задания 3.4 при помощи двух последний функций.
     */
 
-    numbers.filteringOfNumbersDivisibleByTwo().filteringOfNumbersDivisibleByTree().print()
+    numbers.filteringOfNumbersDivisibleByTree().filteringOfNumbersDivisibleByTwo().print()
 }
 
 fun getSumNumbers(numbers: List<Int>) = numbers.sum()
