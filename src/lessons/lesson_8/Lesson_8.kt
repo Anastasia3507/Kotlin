@@ -11,10 +11,10 @@ fun main() {
     умножения) <…> и <…> равен <…>».
     1.3 Вызовите эту функцию четыре раза для каждого математического оператора в отдельности.*/
 
-    println(mathematicalOperation(3, 4, CalculationType.ADDITION))
-    println(mathematicalOperation(9, 3, CalculationType.SUBTRACTION))
-    println(mathematicalOperation(2, 7, CalculationType.MULTIPLICATION))
-    println(mathematicalOperation(6, 2, CalculationType.DIVISION))
+    mathematicalOperation(3, 4, CalculationType.ADDITION)
+    mathematicalOperation(9, 3, CalculationType.SUBTRACTION)
+    mathematicalOperation(2, 7, CalculationType.MULTIPLICATION)
+    mathematicalOperation(6, 2, CalculationType.DIVISION)
 
     /* Задание 2
     2.1 Создайте перечисление DistanceUnit (Единица измерения расстояния) со следующими кейсами: versta, kilometer, mile.
@@ -27,14 +27,36 @@ fun main() {
     */
 
     /*:
-    2.2 Создайте по экземпляру DistanceUnit для каждого кейса и функцию, которая должна принимать единицу измерения и выводить на консоль информацию о ней, например: "Километр. Краткое наименование: км. Страны: Россия, Евросоюз".
+    2.2 Создайте по экземпляру DistanceUnit для каждого кейса и функцию, которая должна принимать единицу измерения и
+    выводить на консоль информацию о ней, например: "Километр. Краткое наименование: км. Страны: Россия, Евросоюз".
     */
 }
 
-fun mathematicalOperation(number1: Int, number2: Int, operation: CalculationType) =
+fun mathematicalOperation(number1: Int, number2: Int, operation: CalculationType): Int {
+    val result: Int
     when (operation) {
-        CalculationType.ADDITION -> "Результат ${CalculationType.ADDITION.operation} $number1 и $number2 равен ${number1 + number2}"
-        CalculationType.SUBTRACTION -> "Результат ${CalculationType.SUBTRACTION.operation} $number1 и $number2 равен ${number1 - number2}"
-        CalculationType.MULTIPLICATION -> "Результат ${CalculationType.MULTIPLICATION.operation} $number1 и $number2 равен ${number1 * number2}"
-        CalculationType.DIVISION -> "Результат ${CalculationType.DIVISION.operation} $number1 и $number2 равен ${number1 / number2}"
+        CalculationType.ADDITION -> {
+            result = number1 + number2
+            println("Результат ${CalculationType.ADDITION.operation} $number1 и $number2 равен $result")
+            return result
+        }
+
+        CalculationType.SUBTRACTION -> {
+            result = number1 - number2
+            println("Результат ${CalculationType.SUBTRACTION.operation} $number1 и $number2 равен ${number1 - number2}")
+            return result
+        }
+
+        CalculationType.MULTIPLICATION -> {
+            result = number1 * number2
+            println("Результат ${CalculationType.MULTIPLICATION.operation} $number1 и $number2 равен ${number1 * number2}")
+            return result
+        }
+
+        CalculationType.DIVISION -> {
+            result = number1 / number2
+            println("Результат ${CalculationType.DIVISION.operation} $number1 и $number2 равен ${number1 / number2}")
+            return result
+        }
     }
+}
