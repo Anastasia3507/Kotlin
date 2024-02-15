@@ -30,6 +30,11 @@ fun main() {
     2.2 Создайте по экземпляру DistanceUnit для каждого кейса и функцию, которая должна принимать единицу измерения и
     выводить на консоль информацию о ней, например: "Километр. Краткое наименование: км. Страны: Россия, Евросоюз".
     */
+
+    //тут есть вопросы
+    getInfoUnit(DistanceUnit.VERSTA)
+    getInfoUnit(DistanceUnit.KILOMETER)
+    getInfoUnit(DistanceUnit.MILE)
 }
 
 fun mathematicalOperation(number1: Int, number2: Int, operation: CalculationType): Int {
@@ -43,20 +48,27 @@ fun mathematicalOperation(number1: Int, number2: Int, operation: CalculationType
 
         CalculationType.SUBTRACTION -> {
             result = number1 - number2
-            println("Результат ${CalculationType.SUBTRACTION.operation} $number1 и $number2 равен ${number1 - number2}")
+            println("Результат ${CalculationType.SUBTRACTION.operation} $number1 и $number2 равен $result")
             return result
         }
 
         CalculationType.MULTIPLICATION -> {
             result = number1 * number2
-            println("Результат ${CalculationType.MULTIPLICATION.operation} $number1 и $number2 равен ${number1 * number2}")
+            println("Результат ${CalculationType.MULTIPLICATION.operation} $number1 и $number2 равен $result")
             return result
         }
 
         CalculationType.DIVISION -> {
             result = number1 / number2
-            println("Результат ${CalculationType.DIVISION.operation} $number1 и $number2 равен ${number1 / number2}")
+            println("Результат ${CalculationType.DIVISION.operation} $number1 и $number2 равен $result")
             return result
         }
     }
 }
+
+fun getInfoUnit(unit: DistanceUnit) =
+    when (unit) {
+        DistanceUnit.VERSTA -> println("${DistanceUnit.VERSTA.title}. Краткое наименование: ${DistanceUnit.VERSTA.denotation}. Страны: ${DistanceUnit.VERSTA.countries}")
+        DistanceUnit.KILOMETER -> println("${DistanceUnit.KILOMETER.title}. Краткое наименование: ${DistanceUnit.KILOMETER.denotation}. Страны: ${DistanceUnit.KILOMETER.countries}")
+        DistanceUnit.MILE -> println("${DistanceUnit.MILE.title}. Краткое наименование: ${DistanceUnit.MILE.denotation}. Страны: ${DistanceUnit.MILE.countries}")
+    }
