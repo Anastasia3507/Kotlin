@@ -18,6 +18,4 @@ class Chair(private val material: String, private val backOfChair: Boolean) : Fu
     override fun hashCode(): Int {
         return material.hashCode()
     }
-
-
 }
