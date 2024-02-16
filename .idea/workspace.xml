@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="changed lesson 8">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_08_02_2024_21_00_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_08_02_2024_21_00__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_02_2024_17_10__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_02_2024_17_10__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_02_2024_21_50__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_12_02_2024_21_50__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_13_02_2024_17_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_13_02_2024_17_26__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_13_02_2024_19_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_13_02_2024_19_17__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_02_2024_9_16__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_02_2024_9_16__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_works/lab3_4/Chair.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_8/DistanceUnit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_8/DistanceUnit.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson_8/Lesson_8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_8/Lesson_8.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,7 @@
     "Kotlin.Lesson_6Kt (1).executor": "Run",
     "Kotlin.Lesson_6Kt.executor": "Run",
     "Kotlin.Lesson_7Kt.executor": "Run",
-    "Kotlin.Lesson_8Kt.executor": "Debug",
+    "Kotlin.Lesson_8Kt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -100,7 +101,7 @@
       <recent name="lab_works.lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Lab3_4Kt">
+  <component name="RunManager" selected="Kotlin.Lesson_8Kt">
     <configuration name="Lab3_4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_works.lab3_4.Lab3_4Kt" />
       <module name="Kotlin" />
@@ -138,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Lab3_4Kt" />
         <item itemvalue="Kotlin.Lesson_8Kt" />
+        <item itemvalue="Kotlin.Lab3_4Kt" />
         <item itemvalue="Kotlin.Lesson_5Kt" />
         <item itemvalue="Kotlin.Lesson_3Kt" />
         <item itemvalue="Kotlin.Lesson_7Kt" />

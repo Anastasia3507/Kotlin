@@ -42,33 +42,52 @@ fun mathematicalOperation(number1: Int, number2: Int, operation: CalculationType
     when (operation) {
         CalculationType.ADDITION -> {
             result = number1 + number2
-            println("Результат ${CalculationType.ADDITION.operation} $number1 и $number2 равен $result")
-            return result
+            getInfoOperation(number1, number2, result, CalculationType.ADDITION.operation)
         }
 
         CalculationType.SUBTRACTION -> {
             result = number1 - number2
-            println("Результат ${CalculationType.SUBTRACTION.operation} $number1 и $number2 равен $result")
-            return result
+            getInfoOperation(number1, number2, result, CalculationType.SUBTRACTION.operation)
         }
 
         CalculationType.MULTIPLICATION -> {
             result = number1 * number2
-            println("Результат ${CalculationType.MULTIPLICATION.operation} $number1 и $number2 равен $result")
-            return result
+            getInfoOperation(number1, number2, result, CalculationType.MULTIPLICATION.operation)
         }
 
         CalculationType.DIVISION -> {
             result = number1 / number2
-            println("Результат ${CalculationType.DIVISION.operation} $number1 и $number2 равен $result")
-            return result
+            getInfoOperation(number1, number2, result, CalculationType.DIVISION.operation)
         }
     }
+    return result
+}
+
+private fun getInfoOperation(num1: Int, num2: Int, result: Int, operation: String) {
+    println("Результат $operation $num1 и $num2 равен $result")
 }
 
 fun getInfoUnit(unit: DistanceUnit) =
     when (unit) {
-        DistanceUnit.VERSTA -> println("${DistanceUnit.VERSTA.title}. Краткое наименование: ${DistanceUnit.VERSTA.denotation}. Страны: ${DistanceUnit.VERSTA.countries}")
-        DistanceUnit.KILOMETER -> println("${DistanceUnit.KILOMETER.title}. Краткое наименование: ${DistanceUnit.KILOMETER.denotation}. Страны: ${DistanceUnit.KILOMETER.countries}")
-        DistanceUnit.MILE -> println("${DistanceUnit.MILE.title}. Краткое наименование: ${DistanceUnit.MILE.denotation}. Страны: ${DistanceUnit.MILE.countries}")
+        DistanceUnit.VERSTA -> printInfoUnit(
+            DistanceUnit.VERSTA.title,
+            DistanceUnit.VERSTA.denotation,
+            DistanceUnit.VERSTA.countries
+        )
+
+        DistanceUnit.KILOMETER -> printInfoUnit(
+            DistanceUnit.KILOMETER.title,
+            DistanceUnit.KILOMETER.denotation,
+            DistanceUnit.KILOMETER.countries
+        )
+
+        DistanceUnit.MILE -> printInfoUnit(
+            DistanceUnit.MILE.title,
+            DistanceUnit.MILE.denotation,
+            DistanceUnit.MILE.countries
+        )
     }
+
+private fun printInfoUnit(title: String, denotation: String, countries: MutableList<String>) {
+    println("$title. Краткое наименование: $denotation. Страны: $countries")
+}
