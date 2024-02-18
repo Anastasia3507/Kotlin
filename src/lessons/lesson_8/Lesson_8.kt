@@ -68,26 +68,4 @@ private fun getInfoOperation(num1: Int, num2: Int, result: Int, operation: Strin
 }
 
 fun getInfoUnit(unit: DistanceUnit) =
-    when (unit) {
-        DistanceUnit.VERSTA -> printInfoUnit(
-            DistanceUnit.VERSTA.title,
-            DistanceUnit.VERSTA.denotation,
-            DistanceUnit.VERSTA.countries
-        )
-
-        DistanceUnit.KILOMETER -> printInfoUnit(
-            DistanceUnit.KILOMETER.title,
-            DistanceUnit.KILOMETER.denotation,
-            DistanceUnit.KILOMETER.countries
-        )
-
-        DistanceUnit.MILE -> printInfoUnit(
-            DistanceUnit.MILE.title,
-            DistanceUnit.MILE.denotation,
-            DistanceUnit.MILE.countries
-        )
-    }
-
-private fun printInfoUnit(title: String, denotation: String, countries: MutableList<String>) {
-    println("$title. Краткое наименование: $denotation. Страны: $countries")
-}
+    println("${unit.title}. Краткое наименование: ${unit.denotation}. Страны: ${unit.countries}")
