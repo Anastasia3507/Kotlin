@@ -31,7 +31,6 @@ fun main() {
     выводить на консоль информацию о ней, например: "Километр. Краткое наименование: км. Страны: Россия, Евросоюз".
     */
 
-    //тут есть вопросы
     getInfoUnit(DistanceUnit.VERSTA)
     getInfoUnit(DistanceUnit.KILOMETER)
     getInfoUnit(DistanceUnit.MILE)
@@ -42,24 +41,21 @@ fun mathematicalOperation(number1: Int, number2: Int, operation: CalculationType
     when (operation) {
         CalculationType.ADDITION -> {
             result = number1 + number2
-            getInfoOperation(number1, number2, result, CalculationType.ADDITION.operation)
         }
 
         CalculationType.SUBTRACTION -> {
             result = number1 - number2
-            getInfoOperation(number1, number2, result, CalculationType.SUBTRACTION.operation)
         }
 
         CalculationType.MULTIPLICATION -> {
             result = number1 * number2
-            getInfoOperation(number1, number2, result, CalculationType.MULTIPLICATION.operation)
         }
 
         CalculationType.DIVISION -> {
             result = number1 / number2
-            getInfoOperation(number1, number2, result, CalculationType.DIVISION.operation)
         }
     }
+    getInfoOperation(number1, number2, result, operation.operation)
     return result
 }
 

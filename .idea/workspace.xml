@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25986190-9117-4ce9-a0cf-e2c99216cd72" name="Changes" comment="changed lesson 8">
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_9/DistanceUnit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons/lesson_9/Lesson_9.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_14_02_2024_11_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_14_02_2024_11_01__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2024_10_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15_02_2024_10_38__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2024_9_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_02_2024_9_39__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024_15_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_18_02_2024_15_37__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lessons/lesson_8/Lesson_8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_8/Lesson_8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_9/DistanceUnit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_9/DistanceUnit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons/lesson_9/Lesson_9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons/lesson_9/Lesson_9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
