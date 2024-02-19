@@ -1,14 +1,39 @@
 package lessons.lesson_9
 
-sealed class DistanceUnit {
-    class Versta(val title: String, val denotation: String, val countries: MutableList<String>) : DistanceUnit()
-    class Kilometer(val title: String, val denotation: String, val countries: MutableList<String>) : DistanceUnit()
-    class Mile(val title: String, val denotation: String, val countries: MutableList<NonISUCountry>) : DistanceUnit()
+sealed class DistanceUnit(val title: String, val denotation: String) {
+    abstract fun getInfoUnit()
 
-
-    enum class NonISUCountry(val country: String) {
-        USA("США"),
-        LIBERIA("Либерия"),
-        MYANMAR("Мьянма")
+    class Versta(title: String, denotation: String, private val countries: MutableList<String>) :
+        DistanceUnit(title, denotation) {
+        override fun getInfoUnit() {
+            println("${title}. Краткое наименование: ${denotation}. Страны: $countries")
+        }
     }
+
+    class Kilometer(title: String, denotation: String, private val countries: MutableList<String>) :
+        DistanceUnit(title, denotation) {
+        override fun getInfoUnit() {
+            println("${title}. Краткое наименование: ${denotation}. Страны: $countries")
+        }
+    }
+
+    class Mile(title: String, denotation: String, private val countries: MutableList<NonISUCountry>) :
+        DistanceUnit(title, denotation) {
+        private fun getCountry(mile: Mile) = mutableListOf<String>().apply {
+            mile.countries.forEach {
+                this.add(it.country)
+            }
+        }
+
+        override fun getInfoUnit() {
+            println("${title}. Краткое наименование: ${denotation}. Страны: ${getCountry(this)}")
+        }
+    }
+}
+
+
+enum class NonISUCountry(val country: String) {
+    USA("США"),
+    LIBERIA("Либерия"),
+    MYANMAR("Мьянма")
 }
